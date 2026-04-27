@@ -1,613 +1,357 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio Emmanuel Rogel</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logoEr.png" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/avatar-1.png" alt="Emmanuel Rogel Millan" width="70">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Emmanuel Rogel Millan">Emmanuel Rogel Millan</h1>
-
-          <p class="title">Desarrollador en Laravel y analista de Datos</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:emmanuelrogelmillan@gmail.com" class="contact-link">emmanuelrogelmillan@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+527292936385" class="contact-link">+52 729 293 6385</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Toluca, México</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>Acerca de</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resumen</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portafolio</button>
-          </li>
-
-         
-
-          
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">Sobre Mi</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Soy Emmanuel Rogel Millan recien graduado de la carrera de Ingenieria en Tecnologias de la Informacion y Comunicaciones, actualmente estoy buscando mi primer trabajo en el sector Tecnologico como desarrolador web o como analista de Datos 
-           
-          </p>
-
-          <p>
-           Mi objetivo es crecer profesionalmente en el ambito del desarrollo web y la ciencia de datos, aportando mis conocimientos y habilidades para contribuir al exito de la empresa que me brinde la oportunidad de desarrollarme en el sector tecnologico.
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">Que ofrezco</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Diseño web</h4>
-
-                <p class="service-item-text">
-                  El diseño más moderno y de alta calidad realizado a nivel profesional.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web Deveeloper</h4>
-
-                <p class="service-item-text">
-                  Desarrollo de paginas web con HTML, CSS y JavaScript.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/consultant_3456439.png" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Cienacia de Datos</h4>
-
-                <p class="service-item-text">
-                  Análisis y visualización de datos utilizando Python y librerías especializadas.
-                </p>
-              </div>
-
-            </li>
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portafolio Web - Emmanuel Rogel Millan</title>
+        <meta name="description" content="Portafolio profesional de Emmanuel Rogel Millan - Especialista en Data Science y Desarrollo Web">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- FontAwesome para los iconos -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <style>
+            /* Paleta de colores Dark Minimalist */
+            :root {
+                --bg-color: #121212;          /* Fondo principal oscuro */
+                --text-color: #a1a1aa;        /* Texto en gris claro para no cansar la vista */
+                --heading-color: #f4f4f5;     /* Títulos casi blancos para dar contraste */
+                --accent-color: #64ffda;      /* Acento verde agua/teal (muy usado en perfiles tech) */
+                --border-color: #27272a;      /* Bordes sutiles para dividir secciones */
+            }
             
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-
-
-
-        <!--
-          - testimonials modal
-        -->
-
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Empresas donde trabaje</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resumen">
-
-        <header>
-          <h2 class="h2 article-title">Currículum</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Emmanuel Rogel Millan — Toluca, México. Un año de experiencia en desarrollo web enfocado en soluciones para
-            mantenimiento preventivo y correctivo en la empresa Summap. Trabajo orientado a optimizar tiempos de reparación
-            y a mantener registros ordenados para auditorías.
-          </p>
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="business-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experiencia Profesional</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Summap — Empresa Virtual</h4>
-
-              <span>Desarrollador en Laravel · Monterrey, México · Julio 2024 – Julio 2025</span>
-
-              <p class="timeline-text">
-                ● Desarrollé un módulo en la plataforma de tickets para un cliente de venta y reparación de equipos. Este
-                módulo sustituyó el papeleo necesario para recibir equipos dañados, agilizando el proceso de recepción.
-              </p>
-
-              <p class="timeline-text">
-                ● Implementé un módulo para gestionar mantenimientos de áreas en un hospital mediante interfaces web que
-                levantaban tickets y permitían su seguimiento. Se integraron correos automáticos para notificar a los
-                responsables, reduciendo tiempos de espera.
-              </p>
-
-              <p class="timeline-text">
-                ● Apoyé en la corrección de bugs de la plataforma de tickets y de checklist mediante la asignación de tareas
-                en ClickUp. Esta organización redujo tiempos de respuesta y permitió priorizar peticiones según su impacto.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="school-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Formación y Proyectos Académicos</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Instituto Tecnológico de Toluca</h4>
-
-              <span>Ingeniería en Tecnologías de la Información y Comunicaciones · Toluca, México</span>
-
-              <p class="timeline-text">
-                Experiencia en Ciencia de Datos: desarrollé una solución para predecir posibles ganadores de la Copa
-                América y la Eurocopa usando Python y librerías como pandas, numpy y matplotlib.
-              </p>
-
-              <p class="timeline-text">
-                Participé en el bootcamp "Tu primera experiencia como científico de datos", donde resolvimos la problemática
-                de la caída de ventas para la tienda "Sano" analizando tablas de tickets y proponiendo recomendaciones.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">Skills adicionales</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Lenguajes y tecnologías</h5>
-                <data value="75">Laravel, PHP, MySQL, JavaScript, Python</data>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Data Science</h5>
-                <data value="60">pandas, numpy, matplotlib</data>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Idiomas</h5>
-                <data value="100">Español (nativo) · Inglés (básico-intermedio)</data>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Metodologías</h5>
-                <data value="70">Scrum</data>
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portafolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>Todos</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Todos</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>Todos</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
+            body {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+                background-color: var(--bg-color);
+                color: var(--text-color);
+                line-height: 1.7;
+                margin: 0;
+                padding: 4rem 1.5rem;
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            h1, h2, h3, h4 {
+                color: var(--heading-color);
+                font-weight: 500;
+                margin-top: 2rem;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+                margin-bottom: 0.5rem;
+                margin-top: 0;
+                /* Gradiente animado para el nombre */
+                background: linear-gradient(270deg, var(--accent-color), #a855f7, var(--accent-color));
+                background-size: 200% auto;
+                color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                animation: gradientText 4s linear infinite;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+                color: var(--accent-color);
+                font-weight: 400;
+                margin-top: 0;
+                margin-bottom: 2rem;
+            }
+
+            a {
+                color: var(--accent-color);
+                text-decoration: none;
+                transition: opacity 0.2s ease;
+            }
+
+            a:hover {
+                opacity: 0.8;
+                text-decoration: underline;
+            }
+
+            /* Keyframes para la animación del texto */
+            @keyframes gradientText {
+                0% { background-position: 0% center; }
+                100% { background-position: 200% center; }
+            }
+
+            section {
+                margin-bottom: 4rem;
+                border-bottom: 1px solid var(--border-color);
+                padding-bottom: 2rem;
+            }
+
+            section:last-of-type {
+                border-bottom: none;
+            }
+
+            ul {
+                list-style: none; /* Quitamos los puntos por defecto */
+                padding-left: 0;
+            }
+
+            li {
+                position: relative;
+                padding-left: 1.5rem;
+                margin-bottom: 0.8rem;
+                transition: transform 0.2s ease;
+            }
+
+            /* Viñetas personalizadas */
+            li::before {
+                content: "▹";
+                position: absolute;
+                left: 0;
+                color: var(--accent-color);
+            }
+
+            /* Estilos minimalistas para la tabla */
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 1.5rem;
+            }
+
+            th, td {
+                border-bottom: 1px solid var(--border-color);
+                padding: 1rem 0.5rem;
+                text-align: left;
+            }
+
+            th {
+                color: var(--heading-color);
+                font-weight: 500;
+            }
+
+            .proyecto h4 {
+                margin-bottom: 0.5rem;
+                color: var(--accent-color);
+            }
+
+            /* Tarjetas interactivas para proyectos */
+            .proyecto {
+                background: rgba(255, 255, 255, 0.02);
+                border: 1px solid var(--border-color);
+                border-radius: 12px;
+                padding: 1.5rem;
+                margin-bottom: 1.5rem;
+                transition: all 0.3s ease;
+            }
+
+            .proyecto:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 30px -15px var(--accent-color);
+                border-color: var(--accent-color);
+                background: rgba(255, 255, 255, 0.04);
+            }
+
+            /* Efecto hover en la tabla de habilidades */
+            tbody tr {
+                transition: background-color 0.2s ease, transform 0.2s ease;
+            }
+
+            tbody tr:hover {
+                background-color: rgba(100, 255, 218, 0.05);
+                transform: translateX(5px);
+            }
+
+            /* Clases para animación Fade-in al hacer scroll */
+            .fade-in {
+                opacity: 0;
+                transform: translateY(40px) scale(0.98);
+                transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+            }
+
+            .fade-in.visible {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+
+            /* Estilos para el canvas de fondo */
+            #canvas-bg {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1; /* Para que quede detrás de todo el contenido */
+                pointer-events: none; /* Evita que el canvas interfiera con los clics */
+            }
+
+            /* Estilos para los enlaces con iconos */
+            .social-links {
+                display: flex;
+                gap: 1.5rem;
+                margin-top: 1.5rem;
+            }
             
+            .social-links a {
+                font-size: 1.5rem;
+                color: var(--text-color);
+                transition: color 0.3s ease, transform 0.3s ease;
+            }
 
-            <li class="project-item active" data-filter-item data-category="todos">
-              <a href="#">
+            .social-links a:hover {
+                color: var(--accent-color);
+                transform: translateY(-5px);
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]> <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p> <![endif]-->
+        
+        <canvas id="canvas-bg"></canvas>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Tickets Summap</h3>
-
-                <p class="project-category">Desarrollo Web</p>
-
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="todos">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Sano y Fresco</h3>
-
-                <p class="project-category">Analisis de Datos</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
+        <header class="fade-in">
+            <h1>Emmanuel Rogel Millan</h1>
+            <h2>Ingeniería en TIC´S | Ciberseguridad & Data Science</h2>
+            <p><strong>Ubicación:</strong> Tenancingo, Estado de México | <strong>Inglés:</strong> B1 (Intermedio)</p>
+            <div class="social-links">
+                <a href="mailto:emmanuelrogelmillan@gmail.com" title="Enviar Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/527292936385" target="_blank" title="Enviar WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/emmanuel-rogel-millan-57195628b" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
         </header>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
+        <main>
+            <section id="perfil-profesional" class="fade-in">
+                <h3>Perfil Profesional</h3>
+                <p>Ingeniero en Tecnologías de la Información con especialidad en Ciencia de Datos y certificación profesional de Microsoft en análisis de datos con Python. Cuento con formación avanzada en Ciberseguridad (Hixec+) y gestión ágil de proyectos (Scrum Foundation Professional). Experiencia en desarrollo backend con Laravel, automatización mediante Web Scraping y despliegue de entornos aislados con Docker. Perfil híbrido con capacidad para integrar análisis masivo de datos con auditorías de seguridad informática.</p>
+            </section>
 
-        <section class="contact-form">
+            <section id="certificaciones-profesionales" class="fade-in">
+                <h3>Certificaciones Profesionales</h3>
+                <ul>
+                    <li><strong>Exploración y Análisis de Datos con Python</strong> | Microsoft (Sep 2023).</li>
+                    <li><strong>Scrum Foundation Professional Certification (SFPC)</strong> | CertiProf (Oct 2023) | ID: 90695896.</li>
+                    <li><strong>Neo4j Fundamentals</strong> | Neo4j (Nov 2023) | Especialista en Bases de Datos de Grafos.</li>
+                    <li><strong>Web Development with AI</strong> | MoureDev (2026).</li>
+                </ul>
+            </section>
 
-          <h3 class="h3 form-title">Contact Form</h3>
+            <section id="formacion-academica" class="fade-in">
+                <h3>Formación Académica</h3>
+                <ul>
+                    <li><strong>Ingeniería en Tecnologías de la Información y Comunicaciones (Especialidad: Ciencia de Datos)</strong> - Estatus: Egresado (Título en trámite).</li>
+                    <li><strong>Hixec+ Cybersecurity Academy</strong> - Enfoque: Hacking Ético y Seguridad Ofensiva (En curso).</li>
+                </ul>
+            </section>
 
-          <form action="#" class="form" data-form>
+            <section id="habilidades-tecnicas" class="fade-in">
+                <h3>Habilidades Técnicas</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Tecnologías</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Data Science</strong></td><td>Python (Pandas, Matplotlib), Minería de Datos, Big Data, Neo4j, Bases de Datos NoSQL y SQL (MySQL, SQL Server).</td></tr>
+                        <tr><td><strong>Ciberseguridad & Redes</strong></td><td>Pentesting (Kali Linux, Metasploit, DVWA), Auditoría de TI, Administración de Redes, Nmap, Burp Suite, Wireshark.</td></tr>
+                        <tr><td><strong>Desarrollo e Infraestructura</strong></td><td>PHP (Laravel), Docker (Containerización), Web Scraping, Git/GitHub, Linux (Ubuntu/Kali).</td></tr>
+                        <tr><td><strong>Metodologías</strong></td><td>Scrum (Gestión ágil de equipos de desarrollo).</td></tr>
+                    </tbody>
+                </table>
+            </section>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+            <section id="proyectos-destacados" class="fade-in">
+                <h3>Proyectos Destacados</h3>
+                
+                <article class="proyecto">
+                    <h4>Sistema de Gestión de Tickets (Residencia Profesional)</h4>
+                    <p>Desarrollo de módulos de un sistema de tickets para mantenimiento preventivo y correctivo en Laravel diseñado para agilizar los tiempos de respuestas de los clientes en cuanto a incidentes dentro de sus empresas. Utilicé Click Up para la gestión del ciclo de vida del proyecto, asegurando que cada funcionalidad respondiera a las necesidades reales de los usuarios finales y mejorando los niveles de servicio (SLA).</p>
+                </article>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
+                <article class="proyecto">
+                    <h4>Punto de venta desarrollado para misceláneas</h4>
+                    <p>Diseño e implementación de un sistema de punto de venta (POS) robusto y fácil de usar, adaptado específicamente a las necesidades operativas de pequeñas tiendas de abarrotes y misceláneas, buscando modernizar la gestión de inventario y las transacciones diarias.</p>
+                </article>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+                <article class="proyecto">
+                    <h4>Análisis de Rendimiento Deportivo (Web Scraping)</h4>
+                    <p>Implementación de una herramienta en Python para la extracción y análisis estadístico del Toluca FC, procesando grandes volúmenes de datos para visualización.</p>
+                </article>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+                <article class="proyecto">
+                    <h4>Laboratorios de Pentesting en Docker</h4>
+                    <p>Orquestación de redes virtuales (emmanet) con contenedores de ataque (Kali) y defensa (Metasploitable/DVWA) para simulaciones de seguridad.</p>
+                </article>
+            </section>
+        </main>
 
-          </form>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                // Configuramos el IntersectionObserver
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible'); // Añade la clase que dispara la animación
+                            observer.unobserve(entry.target); // Deja de observar el elemento una vez animado
+                        }
+                    });
+                }, {
+                    threshold: 0.15 // Se activa cuando el 15% del elemento es visible en pantalla
+                });
 
-        </section>
+                // Seleccionamos todos los elementos con la clase fade-in y los observamos
+                document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+            });
 
-      </article>
+            // Configuración del fondo de partículas dinámico
+            const canvas = document.getElementById('canvas-bg');
+            const ctx = canvas.getContext('2d');
+            let particlesArray = [];
 
-    </div>
+            function initCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+            
+            window.addEventListener('resize', initCanvas);
+            initCanvas();
 
-  </main>
+            class Particle {
+                constructor() {
+                    this.x = Math.random() * canvas.width;
+                    this.y = Math.random() * canvas.height;
+                    this.size = Math.random() * 2; // Tamaño de las partículas
+                    this.speedX = Math.random() * 1 - 0.5; // Velocidad horizontal
+                    this.speedY = Math.random() * 1 - 0.5; // Velocidad vertical
+                }
+                update() {
+                    this.x += this.speedX;
+                    this.y += this.speedY;
+                    // Rebote en los bordes de la pantalla
+                    if (this.size + this.x >= canvas.width || this.x - this.size <= 0) this.speedX = -this.speedX;
+                    if (this.size + this.y >= canvas.height || this.y - this.size <= 0) this.speedY = -this.speedY;
+                }
+                draw() {
+                    ctx.fillStyle = 'rgba(100, 255, 218, 0.4)'; // Color verde agua con transparencia
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+            }
 
+            // Crear el polvo de partículas
+            for (let i = 0; i < 70; i++) {
+                particlesArray.push(new Particle());
+            }
 
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+            function animateParticles() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                for (let i = 0; i < particlesArray.length; i++) {
+                    particlesArray[i].update();
+                    particlesArray[i].draw();
+                }
+                requestAnimationFrame(animateParticles);
+            }
+            animateParticles();
+        </script>
+    </body>
 </html>
